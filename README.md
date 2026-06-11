@@ -1,1 +1,2 @@
-# lidjimsor.github.io
+# Web lidjimsor
+Portafolio de Lidia
