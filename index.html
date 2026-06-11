@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portafolio profesional de Lidia Jiménez Soriano, Desarrolladora RPA especializada en UiPath, automatización y soluciones software."
+    />
+    <title>Lidia | Portafolio</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <button class="menu-toggle" type="button" aria-label="Abrir menú">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <aside class="sidebar" aria-label="Navegación principal">
+      <div class="profile-card">
+        <img class="avatar" src="assets/perfil.jpeg" alt="Foto de perfil de Lidia Jiménez Soriano" />
+        <div>
+          <h1>Lidia Jiménez Soriano</h1>
+          <p>Desarrolladora RPA · UiPath · Ingeniera Informática del Software</p>
+        </div>
+      </div>
+
+      <nav class="nav-links">
+        <a class="nav-link active" href="#inicio">
+          <i class="fa-solid fa-house"></i>
+          <span>Inicio</span>
+        </a>
+        <a class="nav-link" href="#sobre-mi">
+          <i class="fa-solid fa-user"></i>
+          <span>Sobre mí</span>
+        </a>
+        <a class="nav-link" href="#skills">
+          <i class="fa-solid fa-code"></i>
+          <span>Skills</span>
+        </a>
+        <a class="nav-link" href="#proyectos">
+          <i class="fa-solid fa-layer-group"></i>
+          <span>Proyectos</span>
+        </a>
+        <a class="nav-link" href="#experiencia">
+          <i class="fa-solid fa-briefcase"></i>
+          <span>Experiencia</span>
+        </a>
+        <a class="nav-link" href="#formacion">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <span>Formación</span>
+        </a>
+        <a class="nav-link" href="#contacto">
+          <i class="fa-solid fa-paper-plane"></i>
+          <span>Contacto</span>
+        </a>
+      </nav>
+
+      <a class="download-card" href="assets/cv.pdf" download="CV Lidia.pdf">
+        <span>
+          <strong>Currículum</strong>
+          <small>Descargar CV</small>
+        </span>
+        <i class="fa-solid fa-arrow-down"></i>
+      </a>
+    </aside>
+
+    <div class="overlay" aria-hidden="true"></div>
+
+    <main class="dashboard">
+      <header class="topbar">
+        <div>
+          <span class="eyebrow">Portafolio dashboard</span>
+          <h2 id="current-section">Inicio</h2>
+        </div>
+
+        <div class="top-actions">
+          <a class="icon-button" href="https://github.com/lidjimsor" target="_blank" rel="noreferrer" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a class="icon-button" href="https://www.linkedin.com/in/lidia-jim%C3%A9nez-soriano-2a51bb2b3/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a class="icon-button" href="mailto:lidiajimenez3033@gmail.com" aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a class="primary-button" href="#contacto">Contactar</a>
+        </div>
+      </header>
+
+      <section class="section hero-section" id="inicio" data-title="Inicio">
+        <article class="hero-card reveal">
+          <div class="hero-content">
+            <span class="section-kicker">Disponible para nuevos retos</span>
+            <h2>Hola, soy <span>Lidia Jiménez</span></h2>
+            <p>
+              Desarrolladora RPA especializada en UiPath, automatización de
+              procesos empresariales y mejora de soluciones software en entornos reales.
+            </p>
+            <div class="hero-actions">
+              <a class="primary-button" href="#proyectos">Ver proyectos</a>
+              <a class="secondary-button" href="assets/cv.pdf" download="CV Lidia.pdf">Descargar CV</a>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-hidden="true">
+            <div class="visual-glow"></div>
+            <div class="automation-panel">
+              <div class="panel-header">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="flow-row">
+                <div class="flow-node input-node">
+                  <i class="fa-solid fa-file-lines"></i>
+                </div>
+                <div class="flow-line"></div>
+                <div class="flow-node robot-node">
+                  <i class="fa-solid fa-robot"></i>
+                </div>
+                <div class="flow-line"></div>
+                <div class="flow-node success-node">
+                  <i class="fa-solid fa-circle-check"></i>
+                </div>
+              </div>
+              <div class="metric-strip">
+                <span>UiPath</span>
+                <span>SAP</span>
+                <span>Datos</span>
+              </div>
+            </div>
+
+            <div class="floating-widget code-widget">
+              <i class="fa-solid fa-code"></i>
+              <span>clean code</span>
+            </div>
+            <div class="floating-widget data-widget">
+              <i class="fa-solid fa-database"></i>
+              <span>MySQL</span>
+            </div>
+            <div class="floating-widget speed-widget">
+              <i class="fa-solid fa-bolt"></i>
+              <span>optimizar</span>
+            </div>
+            <div class="color-orbit orbit-one"></div>
+            <div class="color-orbit orbit-two"></div>
+          </div>
+        </article>
+
+        <div class="stats-grid">
+          <article class="stat-card reveal">
+            <i class="fa-solid fa-calendar-check"></i>
+            <strong>1+</strong>
+            <span>Año de experiencia profesional</span>
+          </article>
+          <article class="stat-card reveal">
+            <i class="fa-solid fa-folder-open"></i>
+            <strong>3+</strong>
+            <span>Clientes y proyectos reales</span>
+          </article>
+          <article class="stat-card reveal">
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+            <strong>20+</strong>
+            <span>Tecnologías y herramientas</span>
+          </article>
+          <article class="stat-card reveal">
+            <i class="fa-solid fa-gears"></i>
+            <strong>RPA</strong>
+            <span>Automatizaciones en producción</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="sobre-mi" data-title="Sobre mí">
+        <div class="section-heading reveal">
+          <span class="section-kicker">Perfil profesional</span>
+          <h2>Sobre mí</h2>
+        </div>
+        <article class="wide-card about-card reveal">
+          <div>
+            <p>
+              Soy Ingeniera Informática del Software titulada, con experiencia profesional
+              como Desarrolladora RPA en Servinform. Desarrollo, mantengo y mejoro
+              automatizaciones con UiPath, participando en proyectos para clientes como
+              Gobierno de Islas Baleares, Ibermutua y Asepeyo.
+            </p>
+            <p>
+              He optimizado procesos empresariales reales, reduciendo tiempos de ejecución
+              y aplicando buenas prácticas de desarrollo en entornos con SAP y aplicaciones
+              corporativas. Busco seguir creciendo en tecnología combinando RPA, desarrollo
+              de aplicaciones y soluciones software útiles para negocio.
+            </p>
+          </div>
+          <div class="about-highlights">
+            <span><i class="fa-solid fa-circle-check"></i> UiPath & Orchestrator</span>
+            <span><i class="fa-solid fa-circle-check"></i> SAP y apps corporativas</span>
+            <span><i class="fa-solid fa-circle-check"></i> Mejora continua</span>
+          </div>
+        </article>
+        <article class="wide-card objective-card reveal">
+          <span class="section-kicker">Objetivo profesional</span>
+          <p>
+            Busco seguir desarrollándome profesionalmente en el ámbito tecnológico,
+            aprovechando mi experiencia en automatización RPA y ampliando mis
+            conocimientos en desarrollo de aplicaciones. Me interesa participar en
+            proyectos donde pueda aportar eficiencia, calidad técnica y capacidad de
+            aprendizaje.
+          </p>
+        </article>
+      </section>
+
+      <section class="section" id="skills" data-title="Skills">
+        <div class="section-heading reveal">
+          <span class="section-kicker">Stack tecnológico</span>
+          <h2>Skills</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <h3><i class="fa-solid fa-terminal"></i> Lenguajes</h3>
+            <div class="chips">
+              <span>Java</span><span>Python</span><span>JavaScript</span><span>.NET</span><span>SQL</span>
+            </div>
+          </article>
+          <article class="skill-card reveal">
+            <h3><i class="fa-solid fa-server"></i> Backend</h3>
+            <div class="chips">
+              <span>.NET</span><span>Node.js</span><span>APIs REST</span>
+            </div>
+          </article>
+          <article class="skill-card reveal">
+            <h3><i class="fa-solid fa-window-maximize"></i> Frontend</h3>
+            <div class="chips">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span>
+            </div>
+          </article>
+          <article class="skill-card reveal">
+            <h3><i class="fa-solid fa-robot"></i> Automatización</h3>
+            <div class="chips">
+              <span>UiPath</span><span>UiPath Orchestrator</span><span>Control Room</span><span>Workflows</span><span>Gestión de errores</span>
+            </div>
+          </article>
+          <article class="skill-card reveal">
+            <h3><i class="fa-solid fa-database"></i> Bases de datos</h3>
+            <div class="chips">
+              <span>MySQL</span>
+            </div>
+          </article>
+          <article class="skill-card reveal">
+            <h3><i class="fa-solid fa-toolbox"></i> Herramientas</h3>
+            <div class="chips">
+              <span>Git</span><span>GitHub</span><span>Docker</span><span>VirtualBox</span><span>VMware</span><span>VS Code</span><span>Eclipse</span>
+            </div>
+          </article>
+          <article class="skill-card reveal">
+            <h3><i class="fa-solid fa-clipboard-check"></i> Otros</h3>
+            <div class="chips">
+              <span>Scrum</span><span>Documentación técnica</span><span>Office</span><span>Canva</span><span>Blender</span><span>PowerPoint</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="proyectos" data-title="Proyectos">
+        <div class="section-heading reveal">
+          <span class="section-kicker">Trabajo práctico</span>
+          <h2>Proyectos</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-visual rpa">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <div class="project-body">
+              <h3>IA-AprendizajePorRefuerzo</h3>
+              <p>Proyecto de inteligencia artificial centrado en aprendizaje por refuerzo aplicado a robótica móvil y planificación de rutas en entornos con obstáculos.</p>
+              <div class="project-tags"><span>Jupyter Notebook</span><span>Python</span><span>Q-Learning</span><span>SARSA</span></div>
+              <div class="project-actions">
+                <a href="https://github.com/lidjimsor/IA-AprendizajePorRefuerzo" target="_blank" rel="noreferrer">Ver repositorio</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-visual parser">
+              <i class="fa-solid fa-toggle-on"></i>
+            </div>
+            <div class="project-body">
+              <h3>net6-pricing-toggle</h3>
+              <p>Solución backend en .NET 6 para gestionar un sistema de cambio de precios, organizada como API en C#.</p>
+              <div class="project-tags"><span>C#</span><span>.NET 6</span><span>API</span><span>Backend</span></div>
+              <div class="project-actions">
+                <a href="https://github.com/lidjimsor/net6-pricing-toggle" target="_blank" rel="noreferrer">Ver repositorio</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-visual inventory">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+            <div class="project-body">
+              <h3>AnalisisDeAlgoritmosPID</h3>
+              <p>Proyecto de análisis de algoritmos para detección de personas, con notebooks didácticos y evaluación de métodos como SVM.</p>
+              <div class="project-tags"><span>Jupyter Notebook</span><span>Python</span><span>SVM</span><span>Visión por computador</span></div>
+              <div class="project-actions">
+                <a href="https://github.com/lidjimsor/AnalisisDeAlgoritmosPID" target="_blank" rel="noreferrer">Ver repositorio</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="experiencia" data-title="Experiencia">
+        <div class="section-heading reveal">
+          <span class="section-kicker">Trayectoria</span>
+          <h2>Experiencia laboral</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <strong>Desarrolladora RPA</strong>
+                <span>Servinform · Enero 2025 - Actualidad</span>
+              </div>
+              <p>
+                Desarrollo y optimizo automatizaciones con UiPath, centrando mi trabajo
+                en la mejora de procesos administrativos, validación de datos y reducción
+                de errores en producción para clientes como Gobierno de Islas Baleares,
+                Ibermutua y Asepeyo.
+              </p>
+              <p>
+                Configuro y monitorizo ejecuciones en UiPath Orchestrator y Control Room,
+                mantengo robots existentes y automatizo tareas de extracción, validación
+                e introducción de datos en SAP y aplicaciones corporativas.
+              </p>
+              <div class="project-tags"><span>UiPath</span><span>Orchestrator</span><span>Control Room</span><span>SAP</span><span>Git</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="formacion" data-title="Formación">
+        <div class="section-heading reveal">
+          <span class="section-kicker">Aprendizaje continuo</span>
+          <h2>Formación</h2>
+        </div>
+        <div class="education-grid">
+          <article class="education-card reveal">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h3>Grado en Ingeniería Informática del Software</h3>
+            <p>Escuela Técnica Superior de Ingeniería Informática, Universidad de Sevilla · 2021 - 2025.</p>
+          </article>
+          <article class="education-card reveal">
+            <i class="fa-solid fa-certificate"></i>
+            <h3>Bachillerato</h3>
+            <p>IES Itálica · 2019 - 2021.</p>
+          </article>
+          <article class="education-card reveal">
+            <i class="fa-solid fa-book-open-reader"></i>
+            <h3>Inglés B2 Cambridge</h3>
+            <p>Competencia en inglés acreditada para entornos técnicos, documentación y comunicación profesional.</p>
+          </article>
+          <article class="education-card reveal">
+            <i class="fa-solid fa-chart-line"></i>
+            <h3>Fortalezas profesionales</h3>
+            <p>Trabajo en equipo, creatividad, facilidad de aprendizaje, organización, resolución de problemas y adaptación.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="contacto" data-title="Contacto">
+        <div class="section-heading reveal">
+          <span class="section-kicker">Hablemos</span>
+          <h2>Contacto</h2>
+        </div>
+        <div class="contact-grid">
+          <form class="contact-form reveal" id="contact-form" action="https://formsubmit.co/lidiajimenez3033@gmail.com" method="POST">
+            <input type="hidden" name="_subject" id="form-email-subject" value="Nuevo mensaje desde el portafolio de Lidia" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_next" value="https://lidjimsor.github.io/" />
+            <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" class="form-honey" hidden />
+            <label>
+              <span>Nombre</span>
+              <input type="text" name="nombre" placeholder="Nombre" required />
+            </label>
+            <label>
+              <span>Tu correo</span>
+              <input type="email" name="email" placeholder="usuario@email.com" required />
+            </label>
+            <label>
+              <span>Asunto</span>
+              <input type="text" name="asunto" placeholder="Asunto del mensaje" required />
+            </label>
+            <label>
+              <span>Mensaje</span>
+              <textarea name="mensaje" rows="5" placeholder="Tu mensaje en pocas líneas" required></textarea>
+            </label>
+            <button class="primary-button" type="submit">Enviar mensaje</button>
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>Diseñado y desarrollado por Lidia Jiménez Soriano</p>
+        <div>
+          <a href="https://github.com/lidjimsor" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/lidia-jim%C3%A9nez-soriano-2a51bb2b3/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="mailto:lidiajimenez3033@gmail.com">Correo</a>
+        </div>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
