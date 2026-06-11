@@ -737,7 +737,7 @@ textarea {
 
 .contact-grid {
   grid-template-columns: minmax(0, 760px);
-  justify-content: center;
+  justify-content: start;
 }
 
 .contact-form {
